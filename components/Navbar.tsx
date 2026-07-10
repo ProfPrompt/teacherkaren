@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, Languages, Palette, Check } from 'lucide-react';
 import { Language, THEMES } from '../constants';
+import { GraduationCap } from 'lucide-react';
 
 interface NavbarProps {
   language: Language;
@@ -54,9 +55,10 @@ const Navbar: React.FC<NavbarProps> = ({ language, setLanguage, content, current
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center gap-4">
              {/* Logo now links to home */}
-            <a href="#home" onClick={(e) => handleScroll(e, '#home')} className="text-xl font-bold text-primary hover:opacity-80 transition-opacity">
-                Teacher Karen
-            </a>
+           <a href="#home" onClick={(e) => handleScroll(e, '#home')} className="flex items-center gap-2 text-xl font-bold text-primary hover:opacity-80 transition-opacity">
+    <GraduationCap className="w-6 h-6" />
+    Teacher Karen
+</a>
           </div>
           
           {/* Desktop Menu */}
