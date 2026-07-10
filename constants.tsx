@@ -20,13 +20,13 @@ export const CONTACT_INFO = {
 };
 
 export const THEMES = [
+  { name: 'Violet', primary: '#7c3aed', secondary: '#10b981', font: 'Nunito' },
   { name: 'Orange', primary: '#ea580c', secondary: '#06b6d4', font: 'Quicksand' },
   { name: 'Sky Blue', primary: '#0284c7', secondary: '#fbbf24', font: 'Inter' },
   { name: 'Emerald', primary: '#059669', secondary: '#f59e0b', font: 'Poppins' },
   { name: 'Indigo', primary: '#4f46e5', secondary: '#ec4899', font: 'Roboto' },
   { name: 'Rose', primary: '#e11d48', secondary: '#fcd34d', font: 'Lato' },
   { name: 'Amber', primary: '#d97706', secondary: '#0ea5e9', font: 'Open Sans' },
-  { name: 'Violet', primary: '#7c3aed', secondary: '#10b981', font: 'Nunito' },
   { name: 'Teal', primary: '#0d9488', secondary: '#f43f5e', font: 'Montserrat' },
   { name: 'Slate', primary: '#475569', secondary: '#3b82f6', font: 'Work Sans' },
   { name: 'Ocean', primary: '#0891b2', secondary: '#facc15', font: 'Raleway' },
